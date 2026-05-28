@@ -19,7 +19,26 @@ A collection of machine learning projects exploring classification, clustering, 
 | Model | Training Accuracy | Testing Accuracy |
 |---|---|---|
 | SVM (kernel = 'linear', C=10) | 97.14% | 96.49% |
-| Random Forest(n_estimators = 40) | 100% | 95.61 |
+| Random Forest (n_estimators = 40) | 100% | 95.61% |
+
+---
+
+### 2. Hyperparameter Tuning: Grid Search vs Randomized Search
+**Dataset:** Digits (sklearn built-in)  
+**Goal:** Compare GridSearchCV and RandomizedSearchCV across multiple classifiers  
+**Techniques used:**
+- GridSearchCV for exhaustive hyperparameter search
+- RandomizedSearchCV for efficient random sampling
+- 4-fold cross-validation for model evaluation
+- Applied to SVM, Random Forest, Decision Tree, and Logistic Regression
+
+**Models & Search Space:**
+| Model | Parameters Searched | Grid Size | RandomizedSearch `n_iter` |
+|---|---|---|---|
+| Support Vector Machine (SVC) | `kernel`, `gamma`, `C` | 12 | 6 |
+| Random Forest Classifier | `n_estimators` | 4 | 4 |
+| Decision Tree Classifier | `max_depth`, `max_leaf_nodes` | 20 | 12 |
+| Logistic Regression | `solver`, `max_iter` | 8 | 8 |
 
 ---
 
@@ -31,11 +50,14 @@ Machine-Learning-Projects/
 ├── breast_cancer_classification/
 │   └── breast_cancer.ipynb
 │
+├── hyperparameter_tuning/
+│   ├── Hyperparameter_tuning_Grid_and_Randomized_search_.ipynb
+│   └── README.md
+│
 └── README.md
 ```
 
 ---
-
 ## Setup & Requirements
 
 ```bash
