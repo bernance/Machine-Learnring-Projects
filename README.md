@@ -51,15 +51,18 @@ Machine-Learning-Projects/
 │   └── breast_cancer.ipynb
 │
 ├── hyperparameter_tuning/
-│   ├── Hyperparameter_tuning_Grid_and_Randomized_search_.ipynb
+│   ├── Hyperparameter_tuning_Grid_and_Randomized_search.ipynb
 │   └── README.md
 │
 ├── Heart_failure_prediction/
 │   ├── datasets/
-      └── heart.csv
-    ├── datasets/
-      └── Heart failure prediction.ipynb
+│   │   └── heart.csv
+│   │
+│   ├── notebook/
+│   │   └── Heart_failure_prediction.ipynb
+│   │
 │   └── README.md
+│
 └── README.md
 ```
 
