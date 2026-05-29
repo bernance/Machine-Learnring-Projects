@@ -6,14 +6,6 @@ A machine learning project that predicts heart disease using clinical features, 
 
 The [Heart Failure Prediction Dataset](https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction) contains 918 records with 11 clinical features including age, sex, chest pain type, resting blood pressure, cholesterol, and more.
 
-## Project Structure
-
-```
-Heart_failure_prediction.ipynb   # Main notebook
-datasets/
-    heart.csv                    # Raw dataset
-```
-
 ## Workflow
 
 ### 1. Data Preprocessing
