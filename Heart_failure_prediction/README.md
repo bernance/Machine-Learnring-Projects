@@ -49,18 +49,3 @@ All models were trained twice — with and without PCA (95% variance retained):
 - **PCA hurts Random Forest** — RF already handles feature selection internally; PCA removes that advantage
 - **High training accuracy ≠ good model** — RF hit 100% train accuracy but generalized worse than LR
 
-## Setup
-
-```bash
-pip install pandas numpy scipy scikit-learn matplotlib
-jupyter notebook Heart_failure_prediction.ipynb
-```
-
-## Requirements
-
-- Python 3.8+
-- pandas
-- numpy
-- scipy
-- scikit-learn
-- matplotlib
