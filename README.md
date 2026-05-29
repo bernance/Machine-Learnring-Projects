@@ -54,6 +54,12 @@ Machine-Learning-Projects/
 │   ├── Hyperparameter_tuning_Grid_and_Randomized_search_.ipynb
 │   └── README.md
 │
+├── Heart_failure_prediction/
+│   ├── datasets/
+      └── heart.csv
+    ├── datasets/
+      └── Heart failure prediction.ipynb
+│   └── README.md
 └── README.md
 ```
 
